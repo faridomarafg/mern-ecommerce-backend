@@ -15,7 +15,7 @@ dbConnect();
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", 'https://mern-stack-blog-v1-frontend.onrender.com'],
+    origin: ["http://localhost:3000", 'https://mern-ecommerce-front-v1.onrender.com'],
     credentials: true,
   })
 );
